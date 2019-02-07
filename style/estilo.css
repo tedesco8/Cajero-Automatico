@@ -1,0 +1,38 @@
+.imagen {
+    Display:Flex;
+    Justify-content:Center;
+    width: 85%;
+    max-width: 850px;
+    margin: 0% auto;
+}
+.imp-but {
+    Display:Flex;
+    Justify-content:Center;
+    width: 85%;
+    max-width: 850px;
+    margin: 0% auto;
+}
+.descripcion {
+    Display:Flex;
+    Justify-content:Center;
+    width: 85%;
+    max-width: 850px;
+    margin: 0% auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+}
+.header {
+    width: 100%;
+    background-color: rgb(65, 75, 94);   
+    padding: 20px;
+}
+.footer {
+    width: 100%;
+    background: #121920;
+    padding: 80px;
+}

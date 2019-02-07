@@ -5,14 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cajero Automatico</title>
+    <link rel="stylesheet" href="style/estilo.css">
 </head>
 <body>
-    <p><img src="img/cajero.gif" /></p>
-    <p>
-        <input type="number" id="dinero" />
-        <input type="button" value="Extraer" id="extraer" />
-        <p id="resultado"></p>
-    </p>
+    <header class="header">
+        <h1>Bienvenido a su cajero automático</h1>
+    </header>
+    <main>
+        <div class="imagen">
+            <p><img src="img/cajero.gif" /></p>
+        </div>
+        <p class="descripcion">Ingrese la cantidad que quiere extraer</p>
+        <div class="imp-but">
+            
+            <p>
+            <input type="number" id="dinero" />
+            <input type="button" value="Extraer" id="extraer" />
+            <p id="resultado"></p>
+            </p>
+        </div>
+    </main>
+    <footer class="footer">
+
+    </footer>
     <script src="cajero.js"></script>
 </body>
 </html>
